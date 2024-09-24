@@ -867,11 +867,17 @@ body {
   .diet__background-image--mobile {
     display: block;
   }
-  .baby-diet__cat, .baby-diet__dog, .baby-diet-v2__cat, .baby-diet-v2__dog {
+  .baby-diet__cat, .baby-diet__dog {
     height: 628px;
   }
-  .baby-diet__description, .baby-diet-v2__description {
+  .baby-diet__description {
     padding: 110px 0 0 20px;
+  }
+  .baby-diet-v2__cat, .baby-diet-v2__dog {
+    height: 558px;
+  }
+  .baby-diet-v2__description {
+    padding: 40px 0 0 20px;
   }
   .baby-diet__red-line--left, .baby-diet-v2__red-line--left {
     top: 144px;
